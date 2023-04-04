@@ -408,10 +408,10 @@ span {
 #hero {
   width: 100%;
   height: calc(100vh - 40px);
-  background: url(../img/hero-bg.png) center bottom no-repeat;
+  background: url(../images/hero-bg.png) center bottom no-repeat;
   background-size: 100%;
   position: relative;
-  margin-top: 40px;
+  margin-top: 14px;
 }
 
 @media (min-width: 1025px) {
@@ -464,7 +464,7 @@ span {
 #hero h2 {
   color: #777;
   margin-bottom: 30px;
-  font-size: 20px;
+  font-size: 36px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
@@ -477,9 +477,12 @@ span {
   }
 }
 
+#hero b{color: #2c68a7}
+
 #hero img {
   max-width: 95%;
   margin-bottom: 30px;
+  height: 300px;
 }
 
 #hero .btn-get-started {
@@ -522,6 +525,10 @@ span {
 
 #hero .btns a:hover {
   color: #71c55d;
+}
+
+ul > li{
+  display: inline-block;
 }
 
 /*--------------------------------------------------------------
